@@ -3,8 +3,8 @@ const cors = require('cors');
 const mongoose = require('mongoose');
 require('dotenv').config({ path: require('path').resolve(__dirname, '.env') });
 
-
-const statusRoutes = require('./routes/statusRoutes');
+const contactRoutes = require('./Routes/contactRoutes');
+const statusRoutes = require('./Routes/statusRoutes');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
@@ -25,6 +25,10 @@ mongoose.connect(process.env.MONGO_URL, { dbName: process.env.DB_NAME })
 
 
 app.use('/api/status', statusRoutes);
+app.use('/api/contact', contactRoutes);
+app.get('/api', (req, res) => {
+  res.json({ message: "Portfolio API is live", owner: "Krishnansh Puri" });
+});
 
 
 process.on('SIGINT', async () => {
