@@ -11,13 +11,16 @@ const PORT = process.env.PORT || 5000;
 
 
 app.use(express.json());
-app.use(cors({
-  origin: process.env.CORS_ORIGINS ? process.env.CORS_ORIGINS.split(',') : '*',
-  credentials: true,
-  methods: ['*'],
-  allowedHeaders: ['*']
-}));
 
+app.use((req, res, next) => {
+  console.log("Incoming:", req.method, req.url);
+  next();
+});
+
+app.use(cors({
+  origin: process.env.CORS_ORIGINS,
+  credentials: true,
+}));
 
 mongoose.connect(process.env.MONGO_URL, { dbName: process.env.DB_NAME })
   .then(() => console.log('Successfully connected to MongoDB.'))
