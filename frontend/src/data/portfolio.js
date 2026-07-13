@@ -76,6 +76,7 @@ export const projects = [
     description:
       "Full-stack SEO platform with a scalable Express.js + TypeScript backend, MongoDB/Mongoose and JWT auth. Automated daily keyword tracking and AI-driven analysis via 3 REST pipelines using SERP API, Google Gemini API and BrowserBase — deployed as Vercel serverless functions with node-cron.",
     tech: ["Express.js", "TypeScript", "MongoDB", "React", "Gemini API", "Vercel"],
+    video: "/videos/seo-demo.mp4",
     links: { demo: "https://vercel.com/", github: "https://github.com/" },
   },
   {
