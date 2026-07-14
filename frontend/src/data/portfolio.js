@@ -4,7 +4,7 @@ export const profile = {
   firstName: "Krishnansh",
   lastName: "Puri",
   role: "Software Developer",
-  tagline: "Full-stack engineer & competitive programmer building fast, intelligent web systems.",
+  tagline: "CS student focused on mastering DSA and learning backend web development.",
   location: "Jalandhar, India",
   email: "krishnanshpuri@gmail.com",
   phone: "+91 95306 77487",
@@ -21,7 +21,7 @@ export const stats = [
   { label: "CGPA", value: "9.63", suffix: "/10" },
   { label: "LeetCode", value: "1898", suffix: "Knight" },
   { label: "Codeforces", value: "1642", suffix: "Expert" },
-  { label: "Problems Solved", value: "800", suffix: "+" },
+  { label: "Problems Solved", value: "900", suffix: "+" },
 ];
 
 export const about = {

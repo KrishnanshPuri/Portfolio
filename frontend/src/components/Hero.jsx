@@ -62,7 +62,7 @@ export const Hero = () => {
             variants={item}
             className="heading-font mt-4 text-2xl font-bold tracking-tight text-zinc-500 sm:text-3xl"
           >
-            I build things for the web & train AI.
+           I learn algorithms and explore backends
           </motion.p>
 
           <motion.p variants={item} className="mt-6 max-w-xl font-mono text-sm leading-relaxed text-zinc-400">
@@ -167,7 +167,7 @@ export const Hero = () => {
   {"\n  "}
   <span className="text-primary">focus</span>
   <span className="text-foreground">: </span>
-  <span className="text-amber-300">"full-stack + AI"</span>
+  <span className="text-amber-300">"CP + full-stack + AI"</span>
   <span className="text-foreground">,</span>
   {"\n  "}
   <span className="text-primary">openToWork</span>
