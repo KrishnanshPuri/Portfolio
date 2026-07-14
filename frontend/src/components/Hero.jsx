@@ -2,9 +2,20 @@ import { motion } from "framer-motion";
 import Tilt from "react-parallax-tilt";
 import { ArrowDown, Download, Github, Linkedin, Code2, Terminal as TerminalIcon } from "lucide-react";
 import { profile, stats } from "../data/portfolio";
+import { SiLeetcode, SiCodeforces } from "react-icons/si";
 
-const iconMap = { github: Github, linkedin: Linkedin, code: Code2, terminal: TerminalIcon };
+const iconMap = {
+  github: Github,
+  linkedin: Linkedin,
+  terminal: TerminalIcon,
 
+  
+  leetcode: SiLeetcode,
+  codeforces: SiCodeforces,
+
+  
+  code: Code2,
+};
 const container = {
   hidden: {},
   show: { transition: { staggerChildren: 0.09, delayChildren: 0.1 } },

@@ -8,18 +8,18 @@ export const profile = {
   location: "Jalandhar, India",
   email: "krishnanshpuri@gmail.com",
   phone: "+91 95306 77487",
-  resumeUrl: "https://customer-assets.emergentagent.com/job_creative-portfolio-1521/artifacts/mnsgryza_resume_A1.pdf",
+  resumeUrl: "https://tinyurl.com/Kpuri07",
   socials: [
-    { label: "GitHub", handle: "github.com/krishnanshpuri", url: "https://github.com/", icon: "github" },
-    { label: "LinkedIn", handle: "linkedin.com/in/krishnanshpuri", url: "https://linkedin.com/", icon: "linkedin" },
-    { label: "LeetCode", handle: "Knight · 1858", url: "https://leetcode.com/", icon: "code" },
-    { label: "Codeforces", handle: "Expert · 1642", url: "https://codeforces.com/", icon: "terminal" },
+    { label: "GitHub", handle: "github.com/krishnanshpuri", url: "https://github.com/KrishnanshPuri", icon: "github" },
+    { label: "LinkedIn", handle: "linkedin.com/in/krishnanshpuri", url: "https://www.linkedin.com/in/krishnansh-puri/", icon: "linkedin" },
+    { label: "LeetCode", handle: "Knight · 1898", url: "https://leetcode.com/u/CodeVarta_07/", icon: "leetcode" },
+    { label: "Codeforces", handle: "Expert · 1642", url: "https://codeforces.com/profile/Slayer069", icon: "codeforces" },
   ],
 };
 
 export const stats = [
   { label: "CGPA", value: "9.63", suffix: "/10" },
-  { label: "LeetCode", value: "1858", suffix: "Knight" },
+  { label: "LeetCode", value: "1898", suffix: "Knight" },
   { label: "Codeforces", value: "1642", suffix: "Expert" },
   { label: "Problems Solved", value: "800", suffix: "+" },
 ];
@@ -133,5 +133,5 @@ export const experience = [
 export const achievements = [
   "Rank 1 in the CS department & across the institute for academic excellence at NIT Jalandhar.",
   "Semifinalist at Flipkart GRID 7.0 — outcompeting 5000+ teams nationwide.",
-  "LeetCode Knight (1858, 800+ problems) & Codeforces Expert (1642).",
+  "LeetCode Knight (1898, 900+ problems) & Codeforces Expert (1642).",
 ];
