@@ -77,7 +77,7 @@ export const projects = [
       "Full-stack SEO platform with a scalable Express.js + TypeScript backend, MongoDB/Mongoose and JWT auth. Automated daily keyword tracking and AI-driven analysis via 3 REST pipelines using SERP API, Google Gemini API and BrowserBase — deployed as Vercel serverless functions with node-cron.",
     tech: ["Express.js", "TypeScript", "MongoDB", "React", "Gemini API", "Vercel"],
     video: "/videos/seo-demo.mp4",
-    links: { demo: "https://vercel.com/", github: "https://github.com/" },
+    links: { demo: "https://seo-rank-tracker-six.vercel.app/", github: "https://github.com/KrishnanshPuri/SEO_Rank_Tracker" },
   },
   {
     name: "Autonomous Snake AI",
@@ -86,7 +86,7 @@ export const projects = [
     description:
       "A self-learning agent that masters Snake with zero human input. Trained a DQN feed-forward net (11→256→3) in PyTorch, reaching a stable 21.498 mean score over 500+ games using Bellman optimization and multiplicative ε-decay.",
     tech: ["Python", "PyTorch", "Deep Q-Learning"],
-    links: { demo: "", github: "https://github.com/" },
+    links: { demo: "", github: "https://github.com/KrishnanshPuri/snake_ai_game" },
   },
   {
     name: "Graph Algorithm Simulator",
@@ -95,7 +95,7 @@ export const projects = [
     description:
       "Zero-lag, real-time visualization of Dijkstra's, Bellman-Ford and Floyd-Warshall rendering 50+ nodes simultaneously. Built a polished, responsive React tool with custom color themes and resizable panels.",
     tech: ["React.js", "Algorithms", "Data Viz"],
-    links: { demo: "https://vercel.com/", github: "https://github.com/" },
+    links: { demo: "https://path-finder-lake-phi.vercel.app/", github: "https://github.com/KrishnanshPuri/Path_finder" },
   },
 ];
 
