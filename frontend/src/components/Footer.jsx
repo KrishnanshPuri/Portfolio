@@ -1,7 +1,18 @@
 import { Github, Linkedin, Code2, Terminal, ArrowUp } from "lucide-react";
 import { profile } from "../data/portfolio";
+import { SiLeetcode, SiCodeforces } from "react-icons/si";
+const iconMap = {
+  github: Github,
+  linkedin: Linkedin,
+  terminal: Terminal,
 
-const iconMap = { github: Github, linkedin: Linkedin, code: Code2, terminal: Terminal };
+  
+  leetcode: SiLeetcode,
+  codeforces: SiCodeforces,
+
+  
+  code: Code2,
+};
 
 export const Footer = () => {
   return (
