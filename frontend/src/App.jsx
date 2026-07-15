@@ -9,8 +9,18 @@ import { Projects } from "./components/Projects";
 import { Experience } from "./components/Experience";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import ReactGA from "react-ga4";
+import { useEffect } from "react";
+const TRACKING_ID = "G-1EF5KHBN57"
 
 function App() {
+  useEffect(() => {
+    
+    ReactGA.initialize(TRACKING_ID);
+    
+   
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+  }, []);
   return (
     <div className="App grain relative min-h-screen bg-[#050505] text-white">
        <Toaster
@@ -32,14 +42,14 @@ function App() {
   }}
 />
 
-      {/* 1. Global Background Layers */}
+      
       <ParticleBackground />
       
-      {/* 2. Interactive Navigation */}
+     
       <div className="relative z-10">
         <Navbar />
         
-        {/* 3. Main Content Sections */}
+       
         <main>
           <Hero />
           <About />
@@ -49,7 +59,6 @@ function App() {
           <Contact />
         </main>
         
-        {/* 4. Footer */}
         <Footer />
       </div>
     </div>
