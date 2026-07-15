@@ -8,7 +8,7 @@ export const profile = {
   location: "Jalandhar, India",
   email: "krishnanshpuri@gmail.com",
   phone: "+91 95306 77487",
-  resumeUrl: "https://tinyurl.com/Kpuri07",
+  resumeUrl: "",
   socials: [
     { label: "GitHub", handle: "github.com/krishnanshpuri", url: "https://github.com/KrishnanshPuri", icon: "github" },
     { label: "LinkedIn", handle: "linkedin.com/in/krishnanshpuri", url: "https://www.linkedin.com/in/krishnansh-puri/", icon: "linkedin" },
