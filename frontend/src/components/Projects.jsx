@@ -83,9 +83,9 @@ const ProjectCard = ({ project, index }) => {
                     </div>
                   </div>
 
-                 {/* Video Container with Hover Effects */}
-                  <div className="relative overflow-hidden bg-[#0A0A0A]">
-                    {/* Inner shadow to blend video edges */}
+               
+                  <div className="relative aspect-video w-full overflow-hidden bg-[#0A0A0A]">
+                    
                     <div className="pointer-events-none absolute inset-0 z-10 shadow-[inset_0_0_20px_rgba(0,0,0,0.6)]"></div>
                     
                     <video
@@ -93,7 +93,7 @@ const ProjectCard = ({ project, index }) => {
                       muted
                       loop
                       playsInline
-                      className="block max-h-[400px] w-full scale-[1.03] object-cover object-top opacity-85 grayscale-[30%] transition-all duration-500 group-hover:opacity-100 group-hover:grayscale-0"
+                      className="absolute inset-0 h-full w-full origin-top scale-[1.03] object-cover object-top opacity-85 grayscale-[30%] transition-all duration-500 group-hover:opacity-100 group-hover:grayscale-0"
                     >
                       <source src={project.video} type="video/mp4" />
                     </video>
